@@ -19,9 +19,9 @@ h1 {
 
 main {
 	margin: 0.5rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(194, 16, 16, 0.692);
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color: rgb(96, 209, 171);
 	display: grid;
 	grid-template-columns: 1fr;
 	width: 95%;
