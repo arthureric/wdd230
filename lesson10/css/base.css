@@ -12,7 +12,7 @@ html {
   }
   
   body {
-    background-color: #283618;
+    background-color: #b5ca9d;
   }
   
   header img {
@@ -21,7 +21,7 @@ html {
   }
   
   header {
-    background-color: #606c38;
+    background-color: #2fb123;
     background-image: url("../images/pg-mnt-1100.jpg");
     color: black;
     font-family: "Barlow Semi Condensed", sans-serif;
@@ -35,7 +35,7 @@ html {
     background-color: transparent;
     border: none;
     font-size: 2rem;
-    color: #bc6c25;
+    color: #fc5101;
   }
   
   nav {
@@ -53,7 +53,7 @@ html {
     display: block;
     padding: 0.8rem 2vw;
     text-decoration: none;
-    background-color: #283618;
+    background-color: #90cc4c;
     color: white;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     font-size: 18px;
@@ -419,16 +419,16 @@ html {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 5px;
-    border: 10px solid #606c38;
+    border: 10px solid #baf103;
     background-color: #606c38;
   }
   
   .gridview .dicard {
-    border: 2px #283618 solid;
+    border: 2px #7bc02c solid;
     border-collapse: collapse;
     background-color: #f7f0e3;
     padding: 10px;
-    box-shadow: 0 0 30px #283618;
+    box-shadow: 0 0 30px #d4840c;
   }
   
   .dicard img {
@@ -470,7 +470,7 @@ html {
   }
   
   .listview .dicard:nth-of-type(even) {
-    background-color: #f2e1d3;
+    background-color: #885124;
   }
   
   .listview .dicard img.dilogo {
@@ -534,7 +534,7 @@ html {
   
   footer {
     display: block;
-    background-color: #606c38;
+    background-color: #c7ff10;
     color: white;
     font-family: "Barlow Semi Condensed", sans-serif;
     text-align: center;
@@ -566,7 +566,7 @@ html {
   .num-of-visits {
     font-size: 18px;
     font-weight: 750;
-    background-color: #bc6c25;
+    background-color: #ee750c;
     padding: 5px;
     text-align: center;
     border-radius: 45px;
