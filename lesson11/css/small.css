@@ -108,6 +108,12 @@ a {
     justify-content: center;
 }
 
+.pageHeads {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+  }
+  
 table {
     display: table;
 }
@@ -253,6 +259,11 @@ td, th{
     border: dashed 2px;
     margin-bottom: 2rem;
 }
+
+form {
+    padding: 20px;
+    margin: auto;
+  }
 
 input[type="text"], 
 input[type="date"], 

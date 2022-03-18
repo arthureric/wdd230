@@ -84,4 +84,11 @@
     .story-content {
         padding-left: 2rem;
     }
+
+    form {
+        padding: 20px;
+        width: 60%;
+        margin: auto;
+      }
+    
 }

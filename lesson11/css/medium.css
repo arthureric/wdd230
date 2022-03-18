@@ -67,6 +67,12 @@
         align-items: unset;
         text-align: unset;
     }
+
+    form {
+        padding: 20px;
+        width: 90%;
+        margin: auto;
+      }
     
     .story-content {
         padding-left: 2rem;
