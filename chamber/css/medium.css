@@ -1,0 +1,324 @@
+@media only screen and (min-width: 37.5em) {
+  
+    nav {
+        display: grid;
+        grid-template-columns: 60px 1fr 1fr 250px;
+        justify-content: start;
+    }
+
+    nav div.social {
+        display: flex;
+        justify-content: end;
+    }
+    nav div.social img {
+        padding: .5em;
+    }
+    #hamBtn {
+        margin-left: 5em;
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    .index {
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        margin-bottom: 1em;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    main .hero {
+        grid-column: 1/3;
+        margin: 0 auto;
+    }
+    main .localNews {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    main div.placeholder {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .placeholder div.spotOne, .placeholder div.spotTwo {
+        margin: 0;
+    }
+    main .joinUs {
+        display: grid;
+        position: relative;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        margin:0;
+    }
+    .heroBtn {
+        bottom: 2rem;
+        right: 2rem;
+        font-size: 2rem;
+    }
+    .joinUs div a {
+        display: block;
+        position: absolute;
+        top: 1em ;
+        left: 3em;
+        justify-content: center;
+        background-color: #6B4B3E; 
+        color: #dff51d;
+        padding: .5rem .5rem;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: 600;
+        border-radius: 1rem;
+        width: 70%;
+        text-align: center;
+        box-shadow: 10px 5px 5px;
+    }
+    .joinUs p {
+        position: relative;
+        text-align: center;
+        color: #EAEBED;
+        margin-top: 5rem;
+    }
+
+    main .events {
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-right: 10px;
+    }
+    main .events a {
+        margin-left: 8rem;
+        font-size: 1.2rem;
+    }
+    main .events p {
+        margin: 0 5em 0 5em;
+    }
+    main div {
+        grid-gap: 5px;
+    }
+    main .localWthr {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    .localWthr .iconDesc{
+        font-size: .8em;
+    }
+    .localWthr p.wChill {
+        font-size: .7em;
+        padding: 3px;
+    }
+    footer {
+        margin-top: 1em;
+    }
+    footer div.chamberInfo {
+        display: grid;
+        grid-template-columns: 150px 300px 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    footer div .footerLogo {
+        grid-row: 1/3;
+        padding: 1em;
+    }
+    footer div p.compName {
+        text-align: start;
+        align-self: end;
+    }
+    footer div p.address {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        justify-self: start;
+        align-self: start;
+    }
+    footer div p.cntctInfo {
+        align-self: end;
+        font-size: 14px;
+        justify-self: center;
+    }
+    footer a {
+        align-self: start;
+        justify-self: center;
+    }
+    .authoredInfo span.break, span.break1, span.break2{
+        display: block;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .authoredInfo {
+        flex-flow: row wrap;
+        margin-left: 10em;
+    }
+    .authoredInfo div {
+        margin-right:10em;
+        padding-bottom: 1em;
+    }
+
+    main.disc{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 250px 500px 500px 500px 500px 400px 50px;
+    }
+    ul.demographics {
+        font-size: 1.2em;
+    }
+    .card{
+        border-radius: 1em;
+    }
+    .intro {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        margin-top: 0;
+    }
+    .sunset {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: right;
+    }
+    .tracks {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .shopping {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        justify-self: right;
+        margin-right: 1rem;
+    }
+    .open {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .hardware {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        justify-self: right;
+    }
+    .lava {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    .map {
+        grid-column: 1/2;
+        grid-row: 5/6;
+        justify-self: right;
+        margin-right: 1rem;
+    }
+    .potato {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    .cow {
+        grid-column: 1/3;
+        grid-row: 6/7;
+        justify-self: center;
+    }
+    .roster {
+        grid-column: 1/3;
+        grid-row: 7/8;
+        justify-self: right;
+        padding-right: 1em;
+    }
+    .vert {
+        margin-left: 1rem;
+    }
+    main.disc img {
+        transition: all .2s ease-in-out; 
+    }
+    main.disc img:hover { 
+        transform: scale(1.3);
+    }
+    .join {
+        margin: 0 auto;
+
+    }
+
+    .join form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    aside {
+        display: block;
+        grid-column: 2/3;
+        grid-row: 1/3;
+        margin: 2em 1em;
+    }
+    aside .benefits ul{
+        display: flex;
+        flex-direction: column;
+        margin: 0 1em;
+    }
+    aside h2{
+        color: #006989;
+    }
+    aside h3 {
+        margin-bottom: 0;
+    }
+    .submit {
+        grid-column: 1/3;
+    }
+   .thanks {
+        margin: 0 auto;
+        max-width: 960px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+   .thanks h1 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .thanks h2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 7rem;
+    }
+    .dir div.directory div.list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 1fr);
+        margin: 1em 0;
+    }
+    .dir div.directory div.list section {
+        display: grid;
+        grid-template-columns: 2.5fr 3fr 1fr 1fr;
+        margin: 0;
+    }
+    .dir div.directory div.list p {
+        padding: 0;
+        margin: 0 auto;
+    }
+    .dir div.directory div.list h3 {
+        font-size: 1em;
+    }
+    .dir div.grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .attr {
+        grid-column: 3/4;
+        width: fit-content;
+    }
+    .contact fieldset {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        padding: 1em 0 1em 1em ;
+    }
+    .contact form fieldset:nth-child(1) {
+        margin: 0;
+    }
+    .contact input.submitBtn {
+        width: 13em;
+        margin: 0 10px;
+        padding: 0 0 0 10px;
+    }
+    .contact h1 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 0 .5em;
+    }
+    .contact aside.contact {
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 0;
+    }
+    .contact h3 {
+        align-self: start;
+    }
+}   

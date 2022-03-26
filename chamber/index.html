@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Greater Shoshone Chamber of Commerce site">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo&family=Merriweather+Sans&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+    <title>GS Chamber of Commerce</title>
+</head>
+<body>
+    <div id="banner">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+    <header>
+        <nav>
+            <a href="index.html"><img class="headerLogo" src="images/gscoc_logo_small.webp" alt="chamber logo" width="50"></a>
+            <div class="companyName">
+                <p>Greater Shoshone</p>
+                <p class="lineTwo">Chamber of Commerce</p>
+            </div>      
+            <div class="social">
+                <a href="http://www.facebook.com"><img class="facebook" src="images/facebook_icon.webp" alt="facebook icon" width="24" height="24"></a>
+                <a href="http://www.linkedin.com"><img class="linkdin" src="images/linkedin_icon.webp" alt="linkedin icon" width="24" height="24"></a>
+            </div>
+            <button id="hamBtn"><span>&#9776;</span><span class="close">X</span></button>
+            <ul id="menu">
+                <li><a class="homebtn" href="index.html">Home</a></li>
+                <li><a class="dscrbtn" href="discover.html">Discover</a></li>
+                <li><a class="dirbtn" href="directory.html">Directory</a></li>
+                <li><a class="jnbtn" href="join.html">Join</a></li>
+                <li><a class="ctbtn" href="contact.html">Contact</a></li>
+            </ul> 
+        </nav>
+        <p class="todaysDate">todays date</p>
+    </header>
+    <main class="index">
+        <div class="hero">   
+            <picture>                        
+            <source srcset="images/hero_img_600.jpg" media="(max-width: 600px)">
+            <img class="heroImg" src="images/hero_img.jpg" alt="old school house"/>   
+            </picture>
+            <div class="callToAction">
+                <a class="heroBtn" href="join.html">Join the chamber</a>
+            </div>
+        </div>
+        <div class="events">
+            <h1>Ribbon Cutting</h1>
+            <h2>🔹 The Diamond Shack</h2>
+            <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 pm.</p>
+            <a href="#">More Info...</a>
+        </div>
+        <div class="localWthr">
+            <h2 class="weather">Shoshone, CA</h2>
+            <img class="wIcon" src="#" alt="">
+            <p class="deg"><span class="temp"></span>&#176;F</p>
+            <p class="iconDesc"></p>
+            <hr style="width:90%;text-align:center;">
+            <p class="ws">Wind Speed:</p>
+            <p class="windSpeed"></p>
+            <p class="wc">Wind Chill:</p>
+            <p class="wChill"><span class="windChill"></span></p>
+        </div>
+        <div class="localNews">
+            <h1>News Release</h1>
+            <p>The truth is, understanding online political satire isn’t easy. Many satirical websites mimic the tone and appearance of news sites. You have to be familiar with the political issue being satirized. You have to understand what normal political rhetoric looks like, and you have to recognize exaggeration. Otherwise, it’s pretty easy to mistake a satirical message for a literal one. - theconversation.com</p>
+        </div>
+        <div class="placeholder">
+        </div>
+        <div class="joinUs">
+            <div class="joinUsBtn">
+                <a class="join" href="join.html">Join Us!</a>
+            </div>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization! </p>
+        </div>
+    </main>
+    <footer>
+        <div class="chamberInfo">
+            <img class="footerLogo" src="images/gscoc_logo_small.webp" alt="chamber logo" width="109" height="122">
+            <p class="compName">Greater Shoshone Chamber of Commerce</p>
+            <p class="address">2508 North Rail Street <br> Shoshone, Idaho 83334</p>
+            <p class="cntctInfo">info@gschamber.com <br> +(208) 8867-5309</p>
+            <a class="location" href=https://goo.gl/maps/8AZJB2DzwRmwqk3x5>📍 Location Map</a>
+            <a class="attr" href="openweathermap.org">Weather from OpenWeatherMap.Org</a>
+        </div>
+        <hr style="width:90%;text-align:center;">
+        <div class="authoredInfo">
+            <p> <span class="currentyear"></span> </p>
+            <p> <span class="break"> | </span> </p>
+            <p> <span class="name"> Larry E. Copeland Jr </span></p>
+            <p><span class="break1"> | </span></p>
+            <p>WDD 230 Project</p>
+            <p><span class="break2"> | </span></p>
+            <div> 
+                <p><span class="lastupdated"></span></p>
+            </div>
+        </div>      
+    </footer>
+    <script src="js/responsive.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/spotlight.js"></script>
+</body>
+</html>

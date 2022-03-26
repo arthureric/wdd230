@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join Greater Shoshone Chamber of Commerce site to enjoy the many great member only benefits">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo&family=Merriweather+Sans&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+    <title>Join the GS Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img class="headerLogo" src="images/gscoc_logo_small.webp" alt="chamber logo" width="50"></a>
+            <div class="companyName">
+                <p>Greater Shoshone</p>
+                <p class="lineTwo">Chamber of Commerce</p>
+            </div>      
+            <div class="social">
+                <a href="http://www.facebook.com"><img class="facebook" src="images/facebook_icon.webp" alt="facebook icon" width="24" height="24"></a>
+                <a href="http://www.linkedin.com"><img class="linkdin" src="images/linkedin_icon.webp" alt="linkedin icon" width="24" height="24"></a>
+            </div>
+            <button id="hamBtn"><span>&#9776;</span><span class="close">X</span></button>
+            <ul id="menu">
+                <li><a class="homebtn" href="index.html">Home</a></li>
+                <li><a class="dscrbtn" href="discover.html">Discover</a></li>
+                <li><a class="dirbtn" href="directory.html">Directory</a></li>
+                <li><a class="jnbtn" href="join.html">Join</a></li>
+                <li><a class="ctbtn" href="contact.html">Contact</a></li>
+            </ul> 
+        </nav>
+        <p class="todaysDate">Todays Date</p>
+    </header>
+    <main class="join">
+        <h1>Join the Chamber of Commerce</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Primary Contact</legend>
+                <label class="info">First Name* <input type="text" name="fname" required></label>
+                <label class="info">Last Name* <input type="text" name="lname" required></label>
+                <label class="info">Title <input type="text" name="title" pattern="([\p{L}\s-]){7,}" placeholder="Position" ></label>
+                <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="info">Phone* <input type="tel" name="phone" placeholder="12355551234" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="info">Business Name* <input type="text" name="bName" required></label>
+                <label class="info">Business Description<textarea name="description" placeholder="Brief description of business"></textarea></label>   
+                <input type="hidden" name="datetime" id="todayDate">
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="level"><input type="radio" name="level" value="NP" required> Non-Profit Membership</label>
+                <label class="level"><input type="radio" name="level" value="bronze"> Bronze Membership</label>
+                <label class="level"><input type="radio" name="level" value="silver"> Silver Membership</label>
+                <label class="level"><input type="radio" name="level" value="gold"> Gold Membership</label>
+            </fieldset>
+            <aside>
+                <div class="benefits">
+                    <h2>Memebership Benefits</h2>
+                    <h3>Non-Profit Members</h3>
+                    <ul>
+                        <li>No annual cost</li>
+                        <li>Business listing in our directory</li>
+                        <li>Email alerts about upcoming chamber events</li>
+                    </ul>
+                    <h3>Bronze Members</h3>
+                    <ul>
+                        <li>Annual cost: $100</li>
+                        <li>Business listing in our directory</li>
+                        <li>Email alerts about upcoming chamber events</li>
+                    </ul>
+                    <h3>Silver Members</h3>
+                    <ul>
+                        <li>Annual Cost: $250</li>
+                        <li>Business listing in our directory</li>
+                        <li>Email alerts about upcoming chamber events</li>
+                        <li>Special chamber events discounts</li>
+                    </ul>
+                    <h3>Gold Members</h3>
+                        <ul>
+                            <li>Annual Cost: $500</li>
+                            <li>Business listing in our directory</li>
+                            <li>Company spotlight on our website</li>
+                            <li>Email alerts about upcoming chamber events</li>
+                            <li>Special chamber events discounts</li>
+                            <li>Access to chamber sponsored trainings and lectures</li>
+                            <li>Business listing on chamber advertisings</li>
+                        </ul>
+                </div>
+            </aside>
+            <label class="submit"><input type="submit" value="Join Now"  class="submitBtn"></label>
+        </form>
+    </main>
+    <footer>
+        <div class="chamberInfo">
+            <img class="footerLogo" src="images/gscoc_logo_small.webp" alt="chamber logo" width="109" height="122">
+            <p class="compName">Greater Shoshone Chamber of Commerce</p>
+            <p class="address">2508 North Rail Street <br> Shoshone, Idaho 83334</p>
+            <p class="cntctInfo">info@gschamber.com <br> +(208) 8867-5309</p>
+            <a class="location" href=https://goo.gl/maps/8AZJB2DzwRmwqk3x5>📍 Location Map</a>
+        </div>
+        <hr style="width:90%;text-align:center;">
+        <div class="authoredInfo">
+            <p> <span class="currentyear"></span> </p>
+            <p> <span class="break"> | </span> </p>
+            <p> <span class="name"> Larry E. Copeland Jr </span></p>
+            <p><span class="break1"> | </span></p>
+            <p>WDD 230 Project</p>
+            <p><span class="break2"> | </span></p>
+            <div> 
+                <p><span class="lastupdated"></span></p>
+            </div>
+        </div>      
+    </footer>
+    <script src="js/responsive.js"></script>
+    <script>hiddenDate()</script>
+</body>
+</html>

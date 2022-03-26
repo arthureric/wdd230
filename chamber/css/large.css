@@ -1,0 +1,236 @@
+@media only screen and (min-width: 60em) {
+
+body {
+    margin: 0 auto;
+}
+main.index {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+#hamBtn {
+    display: none;
+}
+ul {
+    display: flex;
+    margin-left:30em;
+}
+
+ul li a {
+    font-size: 2em;
+    background-color: #006989;
+    border: none;
+}
+nav ul#menu {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    margin: 0;
+    font-size: 1.1rem;
+}
+nav div.social {
+    display: block;
+    grid-column: 4/5;
+    margin-left: 9em;
+}
+.companyName p {
+    font-size: 3em;
+}
+.companyName p.lineTwo {
+    font-size: 2em;
+}
+.index {
+    position: relative;
+    display: grid;
+    grid-template-columns: 15em 1fr 15em;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 2em 3em 2em 3em;
+    max-width: max-content;
+    max-height: max-content;
+}
+main .events {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0;
+}
+main .events h1 {
+    font-size: 1.5rem;
+}
+main .events h2, .placeholder .spotOne h2, .spotTwo h2, .spotThree h2 {
+    font-size: 1rem;
+}
+main .events p {
+    margin: 1em;
+}
+main .placeholder .spotOne p, .spotTwo p, .spotThree p{
+    font-size: .75rem;
+}
+main .events a {
+    margin-left: 3em;
+}
+main .localWthr {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: .5em 0 .5em 0 ;
+}
+main .localWthr p.wChill {
+    font-size: .85em;
+    padding-top: 2px;
+}
+main .hero {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin: 0 .5em .5em .5em ;
+}
+main .heroImg {
+    margin: 0;
+}
+.heroBtn {
+    position: absolute;
+    top: 4em;
+    left: 1em;
+    width: 9em;
+    height: 1.2em;
+}
+main .localNews {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 0 .5em 0 .5em ;
+}
+main .joinUs {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 0;
+}
+main .joinUs a {
+    left: 1.5rem;
+}
+main .joinUs p{
+    margin: 0;
+}
+main div.placeholder div.spotThree {
+    display: block;
+}
+main div.placeholder {
+    grid-column: 3/4;
+    grid-row: 1/5;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0;
+}
+main div p.spotOne {
+    grid-row: 1/2;
+}
+main div p.spotTwo {
+    grid-row: 2/3;
+}
+main div p.spotThree {
+    grid-row: 3/4;
+    width: auto;
+    margin: 0;
+}
+footer div.chamberInfo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 75px);
+    align-items: center;
+}
+footer div.chamberInfo p.cntctInfo {
+    justify-self: start;
+    margin-left: 5em;
+}
+footer div.chamberInfo a {
+    justify-self: start;
+    margin-left: 4em;
+}
+footer div.chamberInfo img.footerLogo {
+   grid-column: 1/2;
+   grid-row: 1/4;
+   justify-self: end;
+}
+footer div.authoredInfo div {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+footer div p span.lastupdated {
+    margin: 1em auto;
+    padding: 0;
+    text-align: start;
+}
+footer div.authoredInfo {
+    padding-bottom: 1em;  
+    display: grid;
+    grid-template-columns: 10em 10px 15em 10px 10em 10px 20em;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+.join h1 {
+    margin-bottom: .5em;
+}
+form {
+    max-width: 960px;
+    margin: 0 auto;
+    grid-template-rows: 22rem 12rem 10rem 1fr;
+}
+form fieldset {
+    font-size: 1em;
+}
+form fieldset:nth-child(1), form fieldset:nth-child(2) {
+    margin: 0;
+}
+form legend {
+    font-size: 1.5em;
+}
+form label.info {
+    margin: 10px 0 ;
+}
+form label.level {
+    padding: 2px 0;  
+}
+form label.info textarea {
+    margin-bottom: 0;
+}
+.dir div.directory div.list {
+    max-width: 1000px;
+    margin: 1em auto;
+}
+.dir div.directory div.list section {
+    font-size: 1.2em;
+}
+.dir div.directory div.grid {
+    grid-template-columns: 1fr .5fr 1fr;
+}
+.dir h1 {
+    margin: 0 19.5rem;
+}
+main.thanks {
+    margin: 7em auto;
+}
+.wireframes img {
+    min-width: 0;
+}
+.wireframes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 960px;
+    margin: 1em auto;
+}
+.wireframes h1 {
+    grid-column: 1/4;
+}
+.wireframes img.grid, .wireframes img.list {
+    grid-column: 2/4;
+}
+.contact form {
+    border: 5px solid #6B4B3E;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 5em #6B4B3E;
+}
+.contact {
+    margin: 5em ;
+}
+
+}
