@@ -4,7 +4,7 @@ const localtemp = document.querySelector(".temp")
 const wSpeed = document.querySelector(".windSpeed")
 const wChill = document.querySelector(".windChill")
 
-const apiInfo = "https://api.openweathermap.org/data/2.5/weather?q=Shoshone,ID,USA&units=imperial&APPID=da28ef0488cf8a1538d20c2db5897dd8"
+const apiInfo = "https://api.openweathermap.org/data/2.5/weather?q=Accra,ID,GH&units=imperial&APPID=da28ef0488cf8a1538d20c2db5897dd8"
 
 let data, newTemp, speed;
 

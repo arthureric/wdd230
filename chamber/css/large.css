@@ -192,6 +192,11 @@ form label.level {
 form label.info textarea {
     margin-bottom: 0;
 }
+
+.grid-gallery-container figcaption {
+    display: block;
+}
+
 .dir div.directory div.list {
     max-width: 1000px;
     margin: 1em auto;
