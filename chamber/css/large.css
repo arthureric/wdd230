@@ -17,7 +17,7 @@ ul {
 
 ul li a {
     font-size: 2em;
-    background-color: #006989;
+    background-color: #6cbd9b;
     border: none;
 }
 nav ul#menu {
@@ -85,8 +85,8 @@ main .heroImg {
 }
 .heroBtn {
     position: absolute;
-    top: 4em;
-    left: 1em;
+    top: 12em;
+    left: 7em;
     width: 9em;
     height: 1.2em;
 }
@@ -229,10 +229,10 @@ main.thanks {
     grid-column: 2/4;
 }
 .contact form {
-    border: 5px solid #6B4B3E;
+    border: 5px solid #d4511d;
     padding: 2em;
     border-radius: 10px;
-    box-shadow: 0 0 5em #6B4B3E;
+    box-shadow: 0 0 5em #d8480f;
 }
 .contact {
     margin: 5em ;

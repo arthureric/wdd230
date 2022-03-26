@@ -2,49 +2,49 @@
 body {
     position: relative;
     font-family: 'Exo', 'Merriweather Sans', sans-serif;
-    background-color: #EAEBED;
+    background-color: #7196e0;
     font-size: 16px;
 }
 
 header {
-    background-color: #006989;
+    background-color: #77d7f5;
     padding: 10px;
     font-size: 12px;
     margin-bottom: 1em;;
 }
 main .events, .localWthr, .localNews, .joinUs {
     height: auto;
-    border: 2px solid gray;
+    border: 2px solid rgb(255, 11, 11);
     padding: 1rem;
-    background-color: #006989;
+    background-color: #22c983;
     margin-top: 1em;
 }
 main div.placeholder {
     display: grid;
     grid-template-rows: 1fr 1fr;
     height: auto;
-    border: 2px solid gray;
+    border: 2px solid rgb(218, 13, 13);
     padding: 1rem;
     margin-bottom: 15px;
-    background-color: #006989;
+    background-color: #88daf3;
     margin-top: 1em;
 }
 main div.placeholder div {
     display: block;
-    border: 1px solid rgb(170, 170, 170);
+    border: 1px solid rgb(105, 209, 36);
     padding: 10px;
 }
 main div.spotTwo, div.spotOne, div.spotThree {
     margin: 0;
     text-align: center;
-    color: #006989;
-    background-color:  #EAEBED;
+    color: #1b1b1b;
+    background-color:  #9fc9ab;
 }
 main div.spotOne h2, div.spotTwo h2, div.spotThree h2 {
-    color: #6B4B3E;
+    color: #af5836;
 }
 main div.spotOne a, div.spotTwo a, div.spotThree a {
-    color: #6B4B3E;
+    color: #b66d50;
 }
 main div.spotOne img, div.spotTwo img, div.spotThree img {
     max-width: 48px;
@@ -70,31 +70,31 @@ main div.hero{
 }
 .heroBtn {
     position: absolute;
-    background-color: #6B4B3E; 
-    color: #dff51d;
-    padding: .5rem .5rem;
+    background-color: #a0f503; 
+    color: #000000;
+    padding: .3rem .5rem;
     text-decoration: none;
     text-align: center;
-    border-radius: 1rem;
+    border-radius: 2rem;
     height: auto;
-    bottom: 1rem;
-    right: 1rem;
+    bottom: 3rem;
+    right: 2rem;
     box-shadow: 5px 5px 5px;
 
 }
 .events h1, .events h2, .events p, .events a {
     margin: .2em;
     align-content: center;
-    color:  #EAEBED; 
+    color:  #6a86c0; 
     text-align: center; 
 }
 main div.events h1, div.localNews h1 {
-    color: #EAEBED;
+    color: #4b6291;
 }
 .events a {
     text-decoration: none;
     margin-left: 8em;
-    color:#dff51d;
+    color:#f53d1d;
 }
 .events a:hover {
     text-decoration: none;
@@ -159,12 +159,12 @@ main div.events h1, div.localNews h1 {
     margin: 0;
 }
 .localWthr p {
-    color: #EAEBED;
+    color: #1157e4;
     justify-self: center;
 }
 .localWthr p.deg {
     font-size: 2.5rem;
-    color: #dff51d;
+    color: #db180a;
     justify-self: center;
     align-self: center;
     font-weight: 600;
@@ -174,7 +174,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size:  2rem;
-    color: #FE654F;
+    color: #c1bdd8;
     width: 50px;
     height: 50px;
 }
@@ -190,8 +190,8 @@ ul li a {
     padding: .8rem ;
     text-decoration: none;
     border: 1px solid black;
-    color: #EAEBED;
-    background-color: #6B4B3E;
+    color: #121313;
+    background-color: #269c21;
     text-align: center;
     font-size: 5em;
 }
@@ -221,7 +221,7 @@ nav div p {
     font-size: 1.75em;
     margin: 0;
     padding: 0 6px 0px 6px;
-    color: #EAEBED;
+    color: #030303;
     font-weight: 550;
 }
 nav div p.lineTwo {
@@ -242,10 +242,10 @@ nav div.social img {
     border: 2px solid rgb(88, 83, 83);
     margin: 8px 0 0 0;
     padding: .5em;
-    color: #EAEBED;
+    color: #070708;
     font-size: 1.5em;
     font-weight: 500;
-    background-color:#6B4B3E;
+    background-color:#8195bd;
     border: 2px solid gray;
 }
 ul {
@@ -263,11 +263,11 @@ ul.open {
 
 ul li a:hover, footer a:hover {
     background-color:#FE654F;
-    color:  #dff51d;
+    color:  #6e7247;
     border-radius: 4em;
 }
 footer {
-    background-color: #006989;
+    background-color: #51c8ec;
 }
 footer div { 
 	display: flex;
@@ -280,14 +280,14 @@ footer div {
 footer p { 
     margin: 0;
     padding-top: 5px;
-    color: #EAEBED;
+    color: #070707;
     line-height: 1.5;
 }
 footer a {
     padding-top: 10px;
     text-decoration: none;
     font-size: 18px;
-    color: #EAEBED;
+    color: #004ce4;
     width: 150px;
     height: 30px;
 }
@@ -392,7 +392,7 @@ main.disc {
 }
 .intro{
     margin: 1em 0 1em 0;
-    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px 4px rgba(98, 218, 128, 0.4);
     padding: 2px 16px;
     background-color: #006989;
     color: #EAEBED;
@@ -403,7 +403,7 @@ main.disc {
     margin: 1em 0 1em 0;
     box-shadow: 0 4px 8px 4px rgba(0,0,0,0.4);
     padding: 2px 16px;
-    background-color: #6eb2c7;
+    background-color: #277513;
     color: #EAEBED;
     text-align: center;
     width: 375px;
@@ -506,7 +506,7 @@ div.viewBtns {
     justify-content : center;
 }
 .dir input {
-    border: 5px solid #006989;
+    border: 5px solid #8195bd;
     margin: 0 1em;
     width: 48px;
     border-radius: .5em;
@@ -545,7 +545,7 @@ div.grid section a {
     margin: 1em 0;
 }
 .dir div.directory div.list section:nth-child(odd) {
-    background-color: rgb(194, 219, 235);
+    background-color: rgb(122, 171, 201);
 }
 
 .dir div.list h3, .dir div.list p, .dir div.list a {
@@ -576,19 +576,19 @@ div.grid section a {
 
 .contact h1 {
     padding-left: 1em;
-    color: #006989;
+    color: #8195bd;
 }
 .contact h2 {
     display: none;
 }
 .contact {
     display: grid;
-    background-color: #EAEBED;
+    background-color: #8195bd;
 }
 .contact form label.info input, .contact label.info textarea{
     max-width: 90%;
     padding-left: 1em;
-    background-color: #EAEBED ;
+    background-color: #c5c5c5 ;
     border: none;
     border-bottom: groove;
     border-radius: 0;
