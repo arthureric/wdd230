@@ -108,6 +108,18 @@ a {
     justify-content: center;
 }
 
+.mapouter, .gmap_canvas {
+    display: none;
+  }
+
+.mapouter, .gmap_canvas {
+    display: block;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
 .pageHeads {
     text-align: center;
     margin: 0px;
