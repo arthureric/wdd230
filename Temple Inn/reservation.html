@@ -48,7 +48,7 @@
 
         <!-- Title -->
         <div id="reservationTitle">
-            <h2 class="pageTitle">Make a Reservation</h2>
+            <h2 class="pageTitle">Kindly Make a Reservation</h2>
         </div>
 
         <!-- Reservation Form -->
@@ -62,21 +62,20 @@
                             <label id="locationLbl" for="resLocation">Location </label>
                             <select name="location" id="resLocation"  class="locationArea">
                                 <option class="resLoc" disabled selected value>Select a location...</option>
-                                <option class="resOpt" value="Copenhagen">Copenhagen Denmark</option>
-                                <option class="resOpt" value="Johanesburg">Johanesburg South Africa</option>
-                                <option class="resOpt" value="Nevada">Las Vegas Nevada</option>
-                                <option class="resOpt" value="Portland">Portland Oregon</option>
+                                <option class="resOpt" value="Gahan Accra">Ghana Accra Temple</option>
+                                <option class="resOpt" value="Abidjan Côte d'Ivoire">Abidjan Côte d'Ivoire Temple</option>
+                                <option class="resOpt" value="Nigeria Aba">Nigeria Aba Temple</option>
                             </select>
                         </div>
 
                         <!-- date -->
                         <div id="checkIn">
                             <label id="dateInLbl" for="dateIn">Check in: </label>
-                            <input id="dateIn" name="date" type="date" min="2018-12-20" max="2020-12-20" class="input">
+                            <input id="dateIn" name="date" type="date" min="2022-03-20" max="2023-12-20" class="input">
                         </div>
                         <div id="checkOut">
                             <label id="dateOutLbl" for="dateOut">Check out: </label>
-                            <input id="dateOut" name="date" type="date" min="2018-12-21" max="2020-12-30" class="input">
+                            <input id="dateOut" name="date" type="date" min="2022-03-21" max="2023-12-30" class="input">
                         </div>
 
                         <!-- number and types of rooms -->
@@ -84,11 +83,8 @@
                             <label id="roomLbl" for="roomType">Room Type </label>
                             <input list="roomTypeList" id="roomType" class="typeArea" placeholder="Please Select">
                             <datalist id="roomTypeList">
-                                <option class="typeOpt" value="Kitchenette Suite"></option>
-                                <option class="typeOpt" value="King"></option>
-                                <option class="typeOpt" value="Queen"></option>
+                                <option class="typeOpt" value="Family"></option>
                                 <option class="typeOpt" value="Single"></option>
-                                <option class="typeOpt" value="Double"></option>
                             </datalist>
                         </div>
                     </div>
@@ -97,7 +93,7 @@
                         <!-- full name -->
                         <div id="nameReservation">
                             <label id="nameLbl" for="name">Full Name</label>
-                            <input id="name" type="text" name="fullname" class="input" placeholder="John Doe" pattern="[A-Za-z, ' ']{5,}"
+                            <input id="name" type="text" name="fullname" class="input" placeholder="John Mensah" pattern="[A-Za-z, ' ']{5,}"
                                 minlength=5 required>
 
                         </div>
@@ -112,7 +108,7 @@
                         <!-- phone -->
                         <div id="phoneReservation">
                             <label id="phoneLbl" for="phone">Phone</label>
-                            <input type="tel" class="input" id="phone" placeholder="999-999-9999" pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+                            <input type="tel" class="input" id="phone" placeholder="233-011-1111" pattern="\d{3}[\-]\d{3}[\-]\d{4}"
                                 required>
                         </div>
 
