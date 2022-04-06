@@ -1,7 +1,7 @@
 {
     "temple": [
         {
-            "name": "Copenhagen Denmark Temple",
+            "name": "Nigeria Aba Temple",
             "closures": [
                 { "date": "Tuesday, December 25, 2018 - Wednesday, December 26, 2018"},
                 { "date": "Tuesday, January 1, 2019"},
@@ -13,43 +13,7 @@
             ]
         },
         {
-            "name": "Johannesburg South Africa Temple",
-            "closures": [
-                {"date": "Monday, December 24, 2018 (Limited Hours)"},
-                {"date": "Tuesday, December 25, 2018 (Limited Hours)"},
-                {"date": "Wednesday, December 26, 2018 (Limited Hours)"},
-                {"date": "Monday, December 31, 2018 (Limited Hours)"},
-                {"date": "Tuesday, January 1, 2019 (Limited Hours)"},
-                {"date": "Monday, February 11, 2019 - Monday, February 25, 2019"},
-                {"date": "Thursday, March 21, 2019 (Limited Hours)"},
-                {"date": "Saturday, April 13, 2019"},
-                {"date": "Friday, April 19, 2019 (Limited Hours)"},
-                {"date": "Wednesday, May 1, 2019 (Limited Hours)"},
-                {"date": "Monday, August 5, 2019 - Monday, August 19, 2019"},
-                {"date": "Saturday, October 12, 2019"},
-                {"date": "Tuesday, December 24, 2019 (Limited Hours)"},
-                {"date": "Wednesday, December 25, 2019 (Limited Hours)"},
-                {"date": "Thursday, December 26, 2019 (Limited Hours)"},
-                {"date": "Tuesday, December 31, 2019 (Limited Hours)"}
-            ]
-        },
-        {
-            "name": "Las Vegas Nevada Temple",
-            "closures": [ 
-                {"date": "Tuesday, December 25, 2018"}, 
-                {"date": "Tuesday, January 1, 2019"}, 
-                {"date": "Monday, January 7, 2019 - Monday, January 21, 2019"}, 
-                {"date": "Saturday, April 6, 2019"}, 
-                {"date": "Thursday, July 4, 2019"}, 
-                {"date": "Monday, July 8, 2019 - Monday, August 5, 2019"}, 
-                {"date": "Saturday, October 5, 2019"}, 
-                {"date": "Wednesday, November 27, 2019 (Limited Hours)"}, 
-                {"date": "Thursday, November 28, 2019"}, 
-                {"date": "Tuesday, December 24, 2019 - Wednesday, December 25, 2019"} 
-            ]
-        },
-        {
-            "name": "Portland Oregon Temple",
+            "name": "Ghana Accra Temple",
             "closures": [
                 {"date":"Tuesday, December 25, 2018"},
                 {"date": "Tuesday, January 1, 2019"},

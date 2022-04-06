@@ -4,9 +4,9 @@
     body {
         width: 100%;
         margin: 0;
-        background-color: #FFFEFE;
+        background-color: #dfbfbf;  
         font-family: 'Oswald', sans-serif;
-        color: #0B0B0B;
+        color: #e74242;
     }
     h1, h2, h3 {
         font-family: 'Josefin Sans', sans-serif;
@@ -42,7 +42,7 @@
         display: flex;
         width: 100%;
         margin: 0;
-        background-color: #FFFEFE;
+        background-color: #e98d8d;
     }
     #siteLogo {
         width: 15em;
